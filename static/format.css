@@ -1,0 +1,107 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica;
+    background-color: #1d2023;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Dropdown and Button Styling */
+select, button {
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 15px 0;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Result Table Styling */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+
+table, th, td {
+    border: 1px solid #dee2e6;
+}
+
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+
+}
+
+td {
+    background-color: #343a40;
+}
+
+/* Dropdown Menu Styling */
+select {
+    display: inline-block;
+    appearance: none;
+    background-color: #fff;
+    color: hsl(0, 0%, 20%);
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #6c757d;
+    background-color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
